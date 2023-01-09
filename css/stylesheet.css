@@ -1,0 +1,149 @@
+:root {
+  --kuning: #e7eb20;
+}
+
+* {
+  box-sizing: border-box;
+  border: none;
+}
+
+.heading {
+  text-align: center;
+  font-size: 4rem;
+  color: #333;
+  padding: 1rem;
+  margin: 2rem 0;
+  background: rgba(148, 22, 85, 0.05);
+}
+
+.heading span {
+  color: var(--kuning);
+}
+/* navbar */
+.navbar-brand img {
+  width: 100px;
+}
+
+section {
+  padding: 2rem 9%;
+}
+/* home */
+.home {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+}
+.home .content {
+  /* max-width: 50rem; */
+}
+
+.home .content h3 {
+  font-size: 4rem;
+  color: rgb(255, 255, 255);
+}
+
+.home .content span {
+  font-size: 2rem;
+  color: var(--kuning);
+  padding: 1rem 1rem;
+  line-height: 1.5;
+  border: 1px solid white;
+}
+
+.home .content p {
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+  padding: 1rem 0;
+  line-height: 1.5;
+}
+/* about */
+.about .row {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+  padding-bottom: 3rem;
+}
+
+.about .row .video-container {
+  flex: 1 1 40rem;
+  position: relative;
+}
+
+.about .row .video-container video {
+  width: 100%;
+  border: 1.5rem solid #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 1);
+  height: 100%;
+  object-fit: cover;
+}
+
+.about .row .video-container h3 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 3rem;
+  background: rgb(25, 26, 25);
+  width: 96%;
+  padding: 1rem 2rem;
+  text-align: center;
+  mix-blend-mode: screen;
+}
+
+.about .row .content {
+  flex: 1 1 40rem;
+}
+
+.about .row .content h3 {
+  font-size: 3rem;
+  color: var(--kuning);
+}
+
+.about .row .content p {
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+  padding: 0.5rem 0;
+  padding-top: 1rem;
+  line-height: 1.5;
+}
+
+/* divisi */
+.divisi .heading img {
+  width: 100px;
+}
+/* media queries  */
+@media (max-width: 1200px) {
+  .about .row .content h3 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+
+  section {
+    padding: 2rem;
+  }
+
+  .about .row .content h3 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+
+  .heading {
+    font-size: 3rem;
+  }
+}
