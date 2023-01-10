@@ -16,6 +16,10 @@
     />
     <!-- css external -->
     <link rel="stylesheet" href="css/stylesheet.css" />
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/b48d128345.js" crossorigin="anonymous"></script>
+    <!-- aos animation-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body class="bg-success p-2 text-white bg-opacity-100">
     <!-- navbar -->
@@ -93,7 +97,7 @@
         <!-- home section starts  -->
 
         <section class="home" id="home">
-          <div class="content">
+          <div class="content" data-aos="fade-up">
             <h3>GENERATION OF POWER AND XTRAORDINARY</h3>
             <span> Esport team Indonesia </span>
             <p>
@@ -108,7 +112,7 @@
       <h1 class="heading"><span> about </span> us</h1>
 
       <div class="row">
-        <div class="video-container">
+        <div class="video-container" data-aos="fade-right">
           <video controls>
             <source src="img/augpx.mp4" type="video/mp4">
             <source src="movie.ogg" type="video/ogg">
@@ -116,7 +120,7 @@
           <h3>G P X</h3>
         </div>
 
-        <div class="content">
+        <div class="content" data-aos="fade-up">
           <h3>GENERATION OF POWER AND XTRAORDINARY</h3>
           <p>New Jersey,</p>
           <p>New Victory</p>
@@ -126,14 +130,161 @@
     </section>
 
     <!-- start divisi -->
-    <section class="divisi" id="divisi">
-      <h1 class="heading "><img src="img/logogpx.png" alt=""></h1>
-      
+    <section class="divisi" id="ml">
+      <h1 class="heading " ><img src="img/logomole.png" alt="" data-aos="zoom-in"></h1>
+      <div class="card-group">
+        <div class="card">
+          <img src="img/ML.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 style="color: black; text-align: center;">Man</h5>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/mlladies.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 style="color: black; text-align: center;">Ladies</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="divisi" id="pubg">
+      <h1 class="heading"><img src="img/logopubg.png" alt="" data-aos="zoom-in"></h1>
+      <div class="card-group">
+        <div class="card card-divisi">
+          <img src="img/PUBG.jpg" class="card-img-top" alt="..." />
+          
+        </div>
+      </div>
+    </section>
+    <section class="divisi" id="ff">
+      <h1 class="heading"><img src="img/logoff.png" alt="" data-aos="zoom-in"></h1>
+      <div class="card-group">
+        <div class="card card-divisi">
+          <img src="img/FF.jpg" class="card-img-top" alt="..." />
+          
+        </div>
+      </div>
+    </section>
+    
+    <section class="about" id="talent">
+      <h1 class="heading" data-aos="zoom-in"><span> Talent </span></h1>
+      <div class="card-group">
+  <div class="card">
+    <img src="img/talent1.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title" style="color: black; text-align: center;">Sisil</h5>
+      </div>
+  </div>
+  <div class="card">
+    <img src="img/talent2.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title" style="color: black; text-align: center;">Angelia</h5>
+     </div>
+  </div>
+  <div class="card">
+    <img src="img/talent3.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title" style="color: black; text-align: center;">Hanatasia</h5>
+      </div>
+  </div>
+  <div class="card">
+    <img src="img/talent4.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title" style="color: black; text-align: center;">Sean</h5>
+      </div>
+  </div>
+</div>
+    </section>
+    <!-- job vacancy -->
+    <section class="about" id="job">
+      <h1 class="heading" data-aos="zoom-in"><span> Job Vacancy </span></h1>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/job1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/job2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/job3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Subscribe -->
+    <div class="container-fluid py-5 mt-5 content-subscribe text-light">
+      <div class="container">
+        <h5 class="text-center mb-4">Kunjungi Kami</h5>
+        <div class="row justify-content-center">
+          <div class="col-sm-1 d-flex justify-content-center mb-2">
+            <a href="https://www.instagram.com/gpx.idn/?hl=id" class="nav-link">
+              <i class="fa-brands fa-instagram fs-5"></i>
+            </a>
+          </div>
+          <div class="col-sm-1 d-flex justify-content-center mb-2">
+            <a href="https://www.youtube.com/@GPXOFFICIAL" class="nav-link">
+              <i class="fa-brands fa-youtube fs-5"></i>
+            </a>
+          </div>
+          <div class="col-sm-1 d-flex justify-content-center mb-2">
+            <a href="#" class="nav-link">
+              <i class="fa-brands fa-facebook fs-5"></i>
+            </a>
+          </div>
+          
+            
+        </div>
+
+        <h5 class="text-center mt-5" id="contact"><b>Subscribe</b></h5>
+        <p class="text-center font-monospace mb-0">
+          JOIN OUR NEWSLETTER
+        </p>
+        <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Ketikan Email"
+              aria-label="Recipient's username"
+              aria-describedby="button-addon2"
+            />
+            <button
+              class="btn btn-warning text-light"
+              type="button"
+              id="button-addon2"
+            >
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="container-fluid py-3 bg-dark text-light">
+      <div class="container text-center">
+        <label>© 2023 GPX.IDN All Rights</label>
+      </div>
+    </div>
     <!-- start -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
